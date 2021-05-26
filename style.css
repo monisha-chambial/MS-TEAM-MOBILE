@@ -2,12 +2,12 @@ body
 {
     margin:0;
     padding:0;
-    min-height: 800px;
+    min-height: 400px;
     font-family:sans-serif;
     background-image: url("back.jpg");
     background-size: cover;
-    margin-top: 3%;
-    overflow-y: hidden;
+    
+    
     
 }
 .container
@@ -31,8 +31,7 @@ body
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
-    min-height: 100px;
-
+    
 }
 .container .box .icon
 {
@@ -162,6 +161,12 @@ body
     color:#fff;
     font-size: 40px;
 }
+.container .box .content h5{
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size: 0px;
+}
 .container .box:nth-child(1) .icon
 {
     background: #319635
@@ -190,6 +195,36 @@ body
 .container .box:nth-child(3)
 {
     background: #328fa5;
+
+}
+.container .box:nth-child(4) .icon
+{
+    background: orangered;
+
+}
+.container .box:nth-child(4)
+{
+    background: orangered;
+
+}
+.container .box:nth-child(5) .icon
+{
+    background:greenyellow;
+
+}
+.container .box:nth-child(5)
+{
+    background: greenyellow;
+
+}
+.container .box:nth-child(6) .icon
+{
+    background:lightskyblue;
+
+}
+.container .box:nth-child(6)
+{
+    background: lightskyblue;
 
 }
 h2
@@ -229,11 +264,10 @@ h2
     }
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(14, 29, 1);
+     
+    
+    
+    
     color: white;
     text-align: center;
     min-height: 100px;
