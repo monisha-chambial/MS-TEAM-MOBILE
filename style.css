@@ -1,0 +1,234 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+    overflow-y: hidden;
+}
+.container
+{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 140px auto;
+    
+
+}
+
+.container .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: rgb(141, 11, 87);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.container .box .icon
+{
+    position: absolute;
+    top: 0;
+    left :0;
+    width: 100%;
+    height: 100%;
+    background: purple ;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon
+{
+    top: 20px;
+    right: calc(50% -40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.container .box .icon .fa
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size :80px;
+    transition: 0.5s;
+    color:#fff;
+}
+.container .box:hover .icon .fa
+{
+    font-size :20px;
+    
+}
+.container .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity:0;
+}
+.container .box:hover .content
+{
+    top:100px;
+    opacity:1;
+}
+.container .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size: 40px;
+}
+.container .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: rgb(141, 11, 87);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.container .box .icon
+{
+    position: absolute;
+    top: 0;
+    left :0;
+    width: 100%;
+    height: 100%;
+    background: purple ;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon
+{
+    top: 20px;
+    right: calc(50% -40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.container .box .icon .fa
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size :80px;
+    transition: 0.5s;
+    color:#fff;
+}
+.container .box:hover .icon .fa
+{
+    font-size :20px;
+    
+}
+.container .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity:0;
+}
+.container .box:hover .content
+{
+    top:100px;
+    opacity:1;
+}
+.container .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size: 40px;
+}
+.container .box:nth-child(1) .icon
+{
+    background: #319635
+
+}
+.container .box:nth-child(1)
+{
+    background: #4caf50;
+
+}
+.container .box:nth-child(2) .icon
+{
+    background: #d03852;
+
+}
+.container .box:nth-child(2)
+{
+    background: #f54967
+
+}
+.container .box:nth-child(3) .icon
+{
+    background: #23798e;
+
+}
+.container .box:nth-child(3)
+{
+    background: #328fa5;
+
+}
+h2
+{
+    position: relative;
+    font-size:4em;
+    letter-spacing: 15px;
+    color:#0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.99em;
+    outline:none;
+    animation: animate 5s linear infinite;
+
+}
+@keyframes animate 
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    
+    {
+        color:#cacaca;
+        box-shadow:none;
+    }    
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color:#fff;
+        box-shadow: 0 0 10px #02c4ff,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4,
+        
+    
+    
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(14, 29, 1);
+    color: white;
+    text-align: center;
+  }
